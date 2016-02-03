@@ -1,0 +1,5 @@
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuentoIntranet\bin\TuCuentoIntranet.dll
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuentoIntranet\bin\TuCuentoIntranet.pdb
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuentoIntranet\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuentoIntranet\obj\Debug\TuCuentoIntranet.dll
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuentoIntranet\obj\Debug\TuCuentoIntranet.pdb

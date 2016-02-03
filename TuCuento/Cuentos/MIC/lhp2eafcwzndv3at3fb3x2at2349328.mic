@@ -1,0 +1,55 @@
+
+regla 'Caperusita_1'
+	cuando
+		Abuelita.Ojos(=='Chicos')
+		Abuelita.Nariz(=='Chica')
+		Abuelita.Orjeas(=='Chicas')
+	entonces
+		Abuelita.Salud('Bien');
+finregla
+
+regla 'Caperusita_2'
+	cuando
+		Abuelita.Ojos(=='Chicos')
+		Abuelita.Nariz(=='Grande')
+		Abuelita.Orjeas(=='Chicas')
+	entonces
+		Abuelita.Salud('Mal');
+finregla
+
+regla 'Caperusita_3'
+	cuando
+		Abuelita.Ojos(=='Chicos')
+		Abuelita.Nariz(=='Chica')
+		Abuelita.Orjeas(=='Grandes')
+	entonces
+		Abuelita.Salud('Mal');
+finregla
+
+regla 'Caperusita_4'
+	cuando
+		Abuelita.Ojos(=='Grandes')
+		Abuelita.Nariz(=='Chica')
+		Abuelita.Orjeas(=='Chicas')
+	entonces
+		Abuelita.Salud('Mal');
+finregla
+
+regla 'Caperusita_5'
+	cuando
+		Abuelita.Ojos(=='Grandes')
+		Abuelita.Nariz(=='Grande')
+		Abuelita.Orjeas(=='Chicas')
+	entonces
+		Abuelita.Salud('Mal');
+finregla
+
+regla 'Caperusita_6'
+	cuando
+		Abuelita.Ojos(=='Grandes')
+		Abuelita.Nariz(=='Chica')
+		Abuelita.Orjeas(=='Grandes')
+	entonces
+		Abuelita.Salud('Mal');
+finregla
+

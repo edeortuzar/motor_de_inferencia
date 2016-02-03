@@ -1,0 +1,16 @@
+
+regla 'Senicienta_1'
+	cuando
+		Fiesta_en_la_casa_real.Concurre(==VERDADERO)
+	entonces
+		MIC.ejecuta('Se casa con el rey')
+		Fiestaenlacasareal.fue(VERDADERO);
+finregla
+
+regla 'Senicienta_2'
+	cuando
+		Fiesta_en_la_casa_real.Concurre(==FALSO)
+	entonces
+		MIC.ejecuta('Se queda en su casa')
+		Fiestaenlacasareal.fue(FALSO);
+finregla

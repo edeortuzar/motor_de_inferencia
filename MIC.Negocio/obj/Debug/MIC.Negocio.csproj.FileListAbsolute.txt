@@ -1,0 +1,36 @@
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.pdb
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.dll
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.Negocio.pdb
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.dll
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.dll
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.DAL.pdb
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\bin\Debug\MIC.Entidades.pdb
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.csprojResolveAssemblyReference.cache
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.dll
+C:\Desarrollo\Personal\TuCuento\MIC.Negocio\obj\Debug\MIC.Negocio.pdb

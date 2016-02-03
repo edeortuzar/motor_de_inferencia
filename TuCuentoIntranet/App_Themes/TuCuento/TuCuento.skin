@@ -1,0 +1,7 @@
+<asp:Button runat="server" BackColor="#99CC00" Font-Bold="True" ForeColor="White" />
+<asp:Button runat="server" BackColor="#99CC00" Font-Bold="True" ForeColor="White" SkinId="BotonChico" Width="30px" />
+<asp:Label SkinId="LabelRojo" runat="server" ForeColor="Red" />
+<asp:DropDownList runat="server" SkinId="ComboGrande" Width="250px"/>
+<asp:DropDownList runat="server" SkinId="ComboChico" Width="150px"/>
+<asp:TextBox runat="server" SkinId="textoGrande" Height="230px" Width="300px"/>
+<asp:ListBox runat="server" Width="100%" SkinId="listGrande" />

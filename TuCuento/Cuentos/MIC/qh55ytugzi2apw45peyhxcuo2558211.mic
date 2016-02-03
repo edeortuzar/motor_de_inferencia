@@ -1,0 +1,32 @@
+
+regla 'Jubilacion_1'
+	cuando
+		Persona.edad(>=65)
+		Persona.sexo(=='M')
+	entonces
+		MIC.ejecuta('Otorga')
+finregla
+
+regla 'Jubilacion_2'
+	cuando
+		Persona.edad(>=60)
+		Persona.sexo(=='F')
+	entonces
+		MIC.ejecuta('Otorga')
+finregla
+
+regla 'Jubilacion_3'
+	cuando
+		Persona.edad(< 60)
+		Persona.sexo(=='F')
+	entonces
+		MIC.ejecuta('No otorga')
+finregla
+
+regla 'Jubilacion_4'
+	cuando
+		Persona.edad(< 65)
+		Persona.sexo(=='M')
+	entonces
+		MIC.ejecuta('No otorga')
+finregla

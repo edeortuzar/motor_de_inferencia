@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="EjecutarRegla">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Regla" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="oTerminos" type="tns:ArrayOfTermino" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfTermino">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Termino" nillable="true" type="tns:Termino" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Termino">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Sesion" type="tns:Sesion" />
+          <s:element minOccurs="1" maxOccurs="1" name="nCodTermino" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sDescTermino" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Hecho" type="tns:ArrayOfHecho" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Sesion">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="nCodSesion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="ArrayOfHecho">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="Hecho" nillable="true" type="tns:Hecho" />
+        </s:sequence>
+      </s:complexType>
+      <s:complexType name="Hecho">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="nCodHecho" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sDescHecho" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="nCodTipoDato" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="sValorInicial" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sValorFinal" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="nModificado" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="EjecutarReglaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="EjecutarReglaResult" type="tns:ArrayOfString" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfString">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="string" nillable="true" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="EjecutarReglaSoapIn">
+    <wsdl:part name="parameters" element="tns:EjecutarRegla" />
+  </wsdl:message>
+  <wsdl:message name="EjecutarReglaSoapOut">
+    <wsdl:part name="parameters" element="tns:EjecutarReglaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="MICServicioSoap">
+    <wsdl:operation name="EjecutarRegla">
+      <wsdl:input message="tns:EjecutarReglaSoapIn" />
+      <wsdl:output message="tns:EjecutarReglaSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MICServicioSoap" type="tns:MICServicioSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EjecutarRegla">
+      <soap:operation soapAction="http://tempuri.org/EjecutarRegla" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MICServicioSoap12" type="tns:MICServicioSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="EjecutarRegla">
+      <soap12:operation soapAction="http://tempuri.org/EjecutarRegla" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MICServicio">
+    <wsdl:port name="MICServicioSoap" binding="tns:MICServicioSoap">
+      <soap:address location="http://localhost/MIC/MICServicio.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MICServicioSoap12" binding="tns:MICServicioSoap12">
+      <soap12:address location="http://localhost/MIC/MICServicio.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

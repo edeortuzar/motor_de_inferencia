@@ -1,0 +1,25 @@
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\ResolveAssemblyReference.cache
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Entidades\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.csprojResolveAssemblyReference.cache
+C:\Desarrollo\Personal\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Entidades\obj\Debug\TuCuento.Entidades.pdb

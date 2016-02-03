@@ -1,0 +1,16 @@
+
+regla 'Senicienta_1'
+	cuando
+		Fiesta_en_la_casa_real.Concurre(==VERDADERO)
+	entonces
+		MIC.ejecuta('Se casa con el rey')
+		Fiesta_en_la_casa_real.C:\Esteban\Facultad_2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\\Cuentos\MIC\ejwkf455ch5t3555va2hmlfd2423421.mic(VERDADERO);
+finregla
+
+regla 'Senicienta_2'
+	cuando
+		Fiesta_en_la_casa_real.Concurre(==FALSO)
+	entonces
+		MIC.ejecuta('Se queda en su casa')
+		Fiesta_en_la_casa_real.C:\Esteban\Facultad_2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\\Cuentos\MIC\ejwkf455ch5t3555va2hmlfd2423421.mic(FALSO);
+finregla

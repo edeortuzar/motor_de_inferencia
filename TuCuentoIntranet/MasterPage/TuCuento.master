@@ -1,0 +1,153 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="TuCuento.master.cs" Inherits="MasterPage_TuCuento" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=7" />
+    <title>TuCuento</title>
+    <link href="../App_Themes/TuCuento/default.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="frm1" runat="server" onclick="javascript:VerificarSummary()">
+    <asp:ScriptManager ID="ScriptManager1" runat="server">
+    </asp:ScriptManager>
+    <asp:Panel ID="pnlDigitoVerificador" runat="server" Visible="false" CssClass="panelDV">
+        <table>
+            <tr>
+                <td><a href="<%=Page.ResolveUrl("~/Admin/DigitoVerificador.aspx") %>">Digito verificador incorrecto!</a></td>
+            </tr>
+        </table>
+    </asp:Panel>
+    <div>
+        <div id="header">
+            <div id="logo">
+                <h1>
+                    <a href="#">TuCuento</a></h1>
+            </div>
+            <div id="menu">
+                <asp:Literal ID="ltMenuSuperior" runat="server"></asp:Literal>
+                <table class="tablaVerde">
+                    <tr>
+                        <td>
+                            <asp:Label ID="lblUsuario" runat="server" Text="lblUsuario"></asp:Label>
+                        </td>
+                        <td>
+                            <asp:HyperLink ID="hlCambioClave" runat="server" NavigateUrl="~/CambioClave.aspx">Cambio de clave</asp:HyperLink>
+                        </td>
+                        <td>
+                            <a href="<%=Page.ResolveUrl("~/Logout.aspx") %>" title="" class="tabLogout">LogOut</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <asp:UpdateProgress ID="UpdateProgress1" runat="server" AssociatedUpdatePanelID="UpdatePanel1">
+            <ProgressTemplate>
+                <div>Procesando...<img alt="" src="<%=Page.ResolveUrl("~/App_Themes/TuCuento/Imagenes/progreso.gif") %>" /></div>
+            </ProgressTemplate>
+        </asp:UpdateProgress>
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+            <ContentTemplate>
+                <div id="content">
+                    <asp:Panel ID="pnlMasterErrores" runat="server" CssClass="MensajeError" Style="display: none;">
+                        <br />
+                        <table cellpadding="3" width="100%" cellspacing="0" border="0" class="tableCabeceraPanelMessages">
+                            <tr>
+                                <td class="cabeceraPanelMensajes">
+                                    &nbsp;&nbsp;&nbsp;&nbsp;Se han encontrado los siguientes errores - Verifique
+                                </td>
+                                <td class="labelOcultarMostrarPanel" align="right">
+                                    <label id="label01_mostrarPanelMensajes" onclick="ocultarMostrarPanelMensajes()">
+                                        Mostrar Errores</label>
+                                </td>
+                                <td align="center" style="width: 34px">
+                                    <img id="img01_mostrarPanelMensajes" class="imageOcultarMostrar" src="<%=Page.ResolveUrl("~/App_Themes/TuCuento/Imagenes/Flecha_Abajo.gif") %>"
+                                        onclick="ocultarMostrarPanelMensajes()" alt="Ocultar Panel" />
+                                </td>
+                            </tr>
+                        </table>
+                        <div id="div01_panelMensajes" style="display: none">
+                            <table cellpadding="2" cellspacing="0" border="0" class="tableMessages">
+                                <tr>
+                                    <td class="cajaIconMessages">
+                                    </td>
+                                    <td valign="top" class="cajaIconMessages">
+                                        <asp:Label CssClass="textError" ID="lblDetalleErrores" runat="server"></asp:Label>
+                                        <asp:ValidationSummary CssClass="textError" ID="ValidationSummary1" runat="server"
+                                            DisplayMode="List" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                    </asp:Panel>
+                    <div id="posts">
+                        <div class="post">
+                            <table>
+                                <tr>
+                                    <td valign="top">
+                                        <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                                        </asp:SiteMapPath>
+                                    </td>
+                                </tr>
+                            </table>
+                            
+                            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            </asp:ContentPlaceHolder>    
+                                
+                        </div>
+                    </div>
+                    <div id="sidebar">
+                        <asp:Literal ID="ltMenuLateral" runat="server"></asp:Literal>
+                    </div>
+                </div>
+            </ContentTemplate>
+        </asp:UpdatePanel>
+        <div id="footer">
+            <p id="copy">
+                <a href="<%=Page.ResolveUrl("~/Institucional.aspx") %>">Insitucional</a> - <a href="<%=Page.ResolveUrl("~/FAQ.aspx") %>">FAQ</a><br />
+                &copy;2010 TuCuento<br />
+                Power by TuCuento</p>
+        </div>
+    </div>
+    </form>
+    <input type="hidden" id="hPathImagenAbajo" value="<%=Page.ResolveUrl("~/App_Themes/TuCuento/Imagenes/Flecha_Abajo.gif") %>" />
+    <input type="hidden" id="hPathImagenArriba" value="<%=Page.ResolveUrl("~/App_Themes/TuCuento/Imagenes/Flecha_Arriba.gif") %>" />
+    
+    <script language="javascript" type="text/javascript">
+
+
+        function VerificarSummary() {
+            if (document.getElementById("ctl00_lblDetalleErrores").innerHTML != "") {
+                document.getElementById("ctl00_pnlMasterErrores").style.display = "block";
+            }
+            else {
+                document.getElementById("ctl00_pnlMasterErrores").style.display = "none";
+            }
+        }
+        
+        function ocultarMostrarPanelMensajes() {
+            divElement = document.getElementById("div01_panelMensajes");
+            imgElement = document.getElementById("img01_mostrarPanelMensajes");
+            labelElement = document.getElementById("label01_mostrarPanelMensajes");
+
+            if (divElement.style.display == "none") {
+                divElement.style.display = "";
+                labelElement.innerHTML = "Ocultar Errores";
+                imgElement.src = document.getElementById("hPathImagenArriba").value;
+                imgElement.alt = "Ocultar Errores";
+            } else {
+                divElement.style.display = "none";
+                imgElement.src = document.getElementById("hPathImagenAbajo").value;
+                labelElement.innerHTML = "Mostrar Errores";
+                imgElement.alt = "Mostrar Errores";
+            }
+        }
+
+        VerificarSummary();
+    
+    </script>
+    
+</body>
+</html>

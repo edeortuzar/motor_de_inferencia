@@ -1,0 +1,130 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuCuento.Entidades", "TuCuento.Entidades\TuCuento.Entidades.csproj", "{51C0AAED-7015-4E6E-9F13-D766693D5945}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuCuento.Negocio", "TuCuento.Negocio\TuCuento.Negocio.csproj", "{90946D2E-28C6-4EF5-AD35-5F14853A06A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TuCuento.DAL", "TuCuento.DAL\TuCuento.DAL.csproj", "{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TuCuentoIntranet", "http://localhost/TuCuentoIntranet", "{7EDE9CEF-39CE-4127-81CF-BA74EEA8650A}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{90946D2E-28C6-4EF5-AD35-5F14853A06A4}|TuCuento.Negocio.dll;{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}|TuCuento.DAL.dll;{51C0AAED-7015-4E6E-9F13-D766693D5945}|TuCuento.Entidades.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TuCuentoIntranet"
+		Debug.AspNetCompiler.PhysicalPath = "TuCuentoIntranet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TuCuentoIntranet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TuCuentoIntranet"
+		Release.AspNetCompiler.PhysicalPath = "TuCuentoIntranet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TuCuentoIntranet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TuCuentoIntranet\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "TuCuentoInternet", "http://localhost/TuCuentoInternet", "{502ED02C-25F2-4E33-84EF-CD2330A8E7B8}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{90946D2E-28C6-4EF5-AD35-5F14853A06A4}|TuCuento.Negocio.dll;{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}|TuCuento.DAL.dll;{51C0AAED-7015-4E6E-9F13-D766693D5945}|TuCuento.Entidades.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/TuCuentoInternet"
+		Debug.AspNetCompiler.PhysicalPath = "TuCuento\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\TuCuentoInternet\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/TuCuentoInternet"
+		Release.AspNetCompiler.PhysicalPath = "TuCuento\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\TuCuentoInternet\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "TuCuento\"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "MIC", "http://localhost/MIC", "{B7F00928-C51B-49B2-B7FF-C8554C3AB393}"
+	ProjectSection(WebsiteProperties) = preProject
+		UseIISExpress = "false"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		ProjectReferences = "{80E11B11-1A17-4118-856C-4F5B55366EB6}|MIC.Negocio.dll;{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}|MIC.DAL.dll;{9669E962-176B-4CBF-8873-25009C6BB8F9}|MIC.Entidades.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/MIC"
+		Debug.AspNetCompiler.PhysicalPath = "MIC\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\MIC\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/MIC"
+		Release.AspNetCompiler.PhysicalPath = "MIC\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\MIC\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "MIC\"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIC.Negocio", "MIC.Negocio\MIC.Negocio.csproj", "{80E11B11-1A17-4118-856C-4F5B55366EB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIC.DAL", "MIC.DAL\MIC.DAL.csproj", "{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MIC.Entidades", "MIC.Entidades\MIC.Entidades.csproj", "{9669E962-176B-4CBF-8873-25009C6BB8F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51C0AAED-7015-4E6E-9F13-D766693D5945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C0AAED-7015-4E6E-9F13-D766693D5945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C0AAED-7015-4E6E-9F13-D766693D5945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C0AAED-7015-4E6E-9F13-D766693D5945}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90946D2E-28C6-4EF5-AD35-5F14853A06A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90946D2E-28C6-4EF5-AD35-5F14853A06A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90946D2E-28C6-4EF5-AD35-5F14853A06A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90946D2E-28C6-4EF5-AD35-5F14853A06A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B79FBCDB-B028-449B-AAB8-BD8C9D9A6149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EDE9CEF-39CE-4127-81CF-BA74EEA8650A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDE9CEF-39CE-4127-81CF-BA74EEA8650A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EDE9CEF-39CE-4127-81CF-BA74EEA8650A}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EDE9CEF-39CE-4127-81CF-BA74EEA8650A}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{502ED02C-25F2-4E33-84EF-CD2330A8E7B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{502ED02C-25F2-4E33-84EF-CD2330A8E7B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{502ED02C-25F2-4E33-84EF-CD2330A8E7B8}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{502ED02C-25F2-4E33-84EF-CD2330A8E7B8}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{B7F00928-C51B-49B2-B7FF-C8554C3AB393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F00928-C51B-49B2-B7FF-C8554C3AB393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7F00928-C51B-49B2-B7FF-C8554C3AB393}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7F00928-C51B-49B2-B7FF-C8554C3AB393}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{80E11B11-1A17-4118-856C-4F5B55366EB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E11B11-1A17-4118-856C-4F5B55366EB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E11B11-1A17-4118-856C-4F5B55366EB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E11B11-1A17-4118-856C-4F5B55366EB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E726E832-EDB3-4E78-86BC-2D725C6CA3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9669E962-176B-4CBF-8873-25009C6BB8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9669E962-176B-4CBF-8873-25009C6BB8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9669E962-176B-4CBF-8873-25009C6BB8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9669E962-176B-4CBF-8873-25009C6BB8F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+
+regla 'Blanca nieves_1'
+	cuando
+		Blanca_nieves.Fecha_de_nacimiento(< 01/05/1980)
+	entonces
+		MIC.ejecuta('Mayor de 30')
+finregla
+
+regla 'Blanca nieves_2'
+	cuando
+		Blanca_nieves.Fecha_de_nacimiento(< 01/05/1930)
+	entonces
+		MIC.ejecuta('Mayor de 80')
+finregla
+
+regla 'Blanca nieves_3'
+	cuando
+		Blanca_nieves.Fecha_de_nacimiento(>=01/05/1980)
+	entonces
+		MIC.ejecuta('Joven')
+finregla

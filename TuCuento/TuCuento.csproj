@@ -1,0 +1,247 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{35672EAE-C91D-44B2-B591-939D6D17BB4C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TuCuento</RootNamespace>
+    <AssemblyName>TuCuento</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\TuCuento\default.css" />
+    <Content Include="App_Themes\TuCuento\Imagenes\edicion.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\Flecha_Abajo.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\Flecha_Arriba.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\grd_alt.png" />
+    <Content Include="App_Themes\TuCuento\Imagenes\grd_head.jpg" />
+    <Content Include="App_Themes\TuCuento\Imagenes\grd_head.png" />
+    <Content Include="App_Themes\TuCuento\Imagenes\grd_pgr.jpg" />
+    <Content Include="App_Themes\TuCuento\Imagenes\grd_pgr.png" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img01.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img02.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img03.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img04.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img05.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\img06.gif" />
+    <Content Include="App_Themes\TuCuento\Imagenes\progreso.gif" />
+    <Content Include="AreaDocente\ABMAula.aspx" />
+    <Content Include="AreaDocente\Actividades.aspx" />
+    <Content Include="AreaDocente.aspx" />
+    <Content Include="AreaPadres.aspx" />
+    <Content Include="AreaDocente\Correccion.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="AreaPadres\Denuncias.aspx" />
+    <Content Include="EduVirtual.aspx" />
+    <Content Include="GestionCuentos.aspx" />
+    <Content Include="AreaPadres\Impresion.aspx" />
+    <Content Include="AreaDocente\InformeActividades.aspx" />
+    <Content Include="AreaPadres\InformeHijo.aspx" />
+    <Content Include="Invitar.aspx" />
+    <Content Include="Cuentos\Lectura.aspx" />
+    <Content Include="Cuentos\Permisos.aspx" />
+    <Content Include="Cuentos\Redaccion.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AreaDocente\ABMAula.aspx.cs">
+      <DependentUpon>ABMAula.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaDocente\ABMAula.aspx.designer.cs">
+      <DependentUpon>ABMAula.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaDocente\Actividades.aspx.cs">
+      <DependentUpon>Actividades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaDocente\Actividades.aspx.designer.cs">
+      <DependentUpon>Actividades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaDocente.aspx.cs">
+      <DependentUpon>AreaDocente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaDocente.aspx.designer.cs">
+      <DependentUpon>AreaDocente.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaPadres.aspx.cs">
+      <DependentUpon>AreaPadres.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaPadres.aspx.designer.cs">
+      <DependentUpon>AreaPadres.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaDocente\Correccion.aspx.cs">
+      <DependentUpon>Correccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaDocente\Correccion.aspx.designer.cs">
+      <DependentUpon>Correccion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaPadres\Denuncias.aspx.cs">
+      <DependentUpon>Denuncias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaPadres\Denuncias.aspx.designer.cs">
+      <DependentUpon>Denuncias.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EduVirtual.aspx.cs">
+      <DependentUpon>EduVirtual.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EduVirtual.aspx.designer.cs">
+      <DependentUpon>EduVirtual.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GestionCuentos.aspx.cs">
+      <DependentUpon>GestionCuentos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GestionCuentos.aspx.designer.cs">
+      <DependentUpon>GestionCuentos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaPadres\Impresion.aspx.cs">
+      <DependentUpon>Impresion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaPadres\Impresion.aspx.designer.cs">
+      <DependentUpon>Impresion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaDocente\InformeActividades.aspx.cs">
+      <DependentUpon>InformeActividades.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaDocente\InformeActividades.aspx.designer.cs">
+      <DependentUpon>InformeActividades.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AreaPadres\InformeHijo.aspx.cs">
+      <DependentUpon>InformeHijo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AreaPadres\InformeHijo.aspx.designer.cs">
+      <DependentUpon>InformeHijo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Invitar.aspx.cs">
+      <DependentUpon>Invitar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Invitar.aspx.designer.cs">
+      <DependentUpon>Invitar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentos\Lectura.aspx.cs">
+      <DependentUpon>Lectura.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuentos\Lectura.aspx.designer.cs">
+      <DependentUpon>Lectura.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Cuentos\Permisos.aspx.cs">
+      <DependentUpon>Permisos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuentos\Permisos.aspx.designer.cs">
+      <DependentUpon>Permisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\TuCuento.master.cs">
+      <DependentUpon>TuCuento.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Cuentos\Redaccion.aspx.cs">
+      <DependentUpon>Redaccion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Cuentos\Redaccion.aspx.designer.cs">
+      <DependentUpon>Redaccion.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\TuCuento\TuCuento.skin" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage\TuCuento.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="EduVirtual\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2923</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

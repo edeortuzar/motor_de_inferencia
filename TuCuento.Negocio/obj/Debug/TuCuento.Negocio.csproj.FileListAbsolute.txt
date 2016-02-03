@@ -1,0 +1,45 @@
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.pdb
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.dll
+D:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Negocio.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.DAL.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\bin\Debug\TuCuento.Entidades.pdb
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.csprojResolveAssemblyReference.cache
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.dll
+C:\Desarrollo\Personal\TuCuento\TuCuento.Negocio\obj\Debug\TuCuento.Negocio.pdb

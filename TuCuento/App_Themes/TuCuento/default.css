@@ -1,0 +1,477 @@
+body {
+	margin: 20px 0;
+	padding: 0;
+	background: #3399FF url(Imagenes/img01.gif) repeat-y center;
+	font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3399FF;
+}
+
+h1, h2, h3 {
+	margin: 0;
+	text-transform: lowercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.4em;
+}
+
+img {
+	border: none;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+/* Header */
+
+#header {
+	width: 768px;
+	height: 160px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo {
+	float: left;
+	width: 260px;
+	height: 160px;
+	background: url(Imagenes/img02.gif) no-repeat;
+}
+
+#logo h1 {
+	padding: 50px 0 0 20px;
+	letter-spacing: -.05em;
+	font-size: 4em;
+}
+
+#logo h2 {
+	font-size: 1.8em;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #3399FF;
+}
+
+/* Menu */
+
+#menu {
+	float: right;
+	width: 431px;
+	height: 50px;
+	margin: 50px 60px 0 0;
+	background: #99CC00 url(Imagenes/img05.gif);
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0 0 0 1em;
+	list-style: none;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	padding: .5em .3em;
+	text-decoration: none;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	font-size: 1.5em;
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+	background: #FF9900;
+}
+
+#menu .active a {
+}
+
+/* Content */
+
+#content {
+	width: 768px;
+	margin: 0 auto;
+}
+
+/* Posts */
+.MensajeError
+{
+    float: right;
+	width: 450px;
+	padding: 0 40px 0 0;
+}
+
+#posts {
+	float: right;
+	width: 450px;
+	padding: 0 40px 0 0;
+}
+
+.post {
+	margin-bottom: 10px;
+}
+
+.post .title {
+	padding: 0 0 5px 20px;
+	color: #FF8400;
+}
+
+.post .meta {
+	margin-left: 10px;
+	padding: 10px 20px;
+	background: url(Imagenes/img06.gif) no-repeat;
+	font-size: smaller;
+}
+
+.post .meta p {
+	margin: 0;
+}
+
+.post .story {
+	padding: 10px 20px;
+	line-height: 180%;
+}
+
+.post a {
+	color: #3399FF;
+}
+
+.post a:hover 
+{
+    color: White;
+	background: #FF9900;
+}
+
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 240px;
+}
+
+/* Boxed */
+
+#sidebar .boxed {
+	width: 240px;
+	padding: 0 0 3em 0;
+	background: #FFCC00 url(Imagenes/img04.gif) no-repeat left bottom;
+}
+
+#sidebar .boxed h2 {
+	height: 40px;
+	padding: 10px 0 0 30px;
+	background: url(Imagenes/img03.gif) no-repeat;
+	font-size: 2em;
+	color: #FFFFFF;
+}
+
+#sidebar .boxed .content {
+	color: #FFFFFF;
+}
+
+#sidebar .boxed ul {
+}
+
+#sidebar .boxed li {
+}
+
+#sidebar .boxed a {
+	text-decoration: none;
+	color: #3399FF;
+}
+
+#sidebar .boxed a:hover {
+	color: #FF9900;
+}
+
+/* Footer */
+
+#footer {
+	clear: both;
+	width: 200px;
+	margin: 0 auto;
+	padding: 0 520px 0 20px;
+}
+
+#footer p {
+	color: #FFFFFF;
+}
+
+#footer a {
+	color: #FFFFFF;
+}
+
+/* GridView */
+.mGrid { 
+    width: 100%; 
+    background-color: #fff; 
+    margin: 5px 0 10px 0; 
+    border: solid 1px #99CC00; 
+    border-collapse:collapse; 
+}
+.mGrid td { 
+    padding: 2px; 
+    border: solid 1px #c1c1c1; 
+    color: #717171; 
+}
+.mGrid th { 
+    padding: 4px 2px; 
+    color: #fff; 
+    background: #99CC00 url(Imagenes/grd_head.jpg) repeat-x top; 
+    border-left: solid 1px #99CC00; 
+    font-size: 0.9em; 
+}
+.mGrid .alt { background: #fcfcfc url(Imagenes/grd_alt.png) repeat-x top; }
+.mGrid .pgr { background: #99CC00 url(Imagenes/grd_pgr.jpg) repeat-x top; }
+.mGrid .pgr table { margin: 5px 0; }
+.mGrid .pgr td { 
+    border-width: 0; 
+    padding: 0 6px; 
+    border-left: solid 1px #666; 
+    font-weight: bold; 
+    color: #fff; 
+    line-height: 12px; 
+ }   
+.mGrid .pgr a { color: #666; text-decoration: none; }
+.mGrid .pgr a:hover { color: #000; text-decoration: none; }
+
+/* Tabla verde */
+.tablaVerde 
+{
+    width: 100%;
+    border:0;
+    background-color: #99CC00;
+    color: #FFFFFF;
+}
+
+.logout {
+	display: block;
+	float:right;
+	padding: .0em .0em;
+	text-decoration: none;
+	text-transform: lowercase;
+	letter-spacing: -1px;
+	font: small "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 0.2em;
+	color: #FFFFFF;
+}
+
+/* Tabla con controles */
+.tablaCampos 
+{
+    width: 100%;
+    border:0;
+}
+.tdtablaCamposTitulo
+{
+    width: 30%;
+    text-align:right;
+}
+.tdtablaCamposControles
+{
+    width: 70%;
+}
+
+/* Tabla Botones */ 
+.tablaBotones
+{
+    width: 100%;
+    border:0;
+}
+.tablaBotones td
+{
+    padding: 2px;
+    text-align: center;
+}
+
+/* MENSAJE DEL MASTERPAGE */
+.tableCabeceraPanelMessages
+{
+	width:97%;
+	border:1px;
+	margin:0px;	
+	border: 1px solid #CFC5AF;
+	text-align:left;
+	background-color: #f4f6e1;
+}
+
+.cabeceraPanelMensajes
+{
+	font-family: Arial, tahoma, helvetica;
+	font-weight: normal;
+	font-size: 11px;
+	color: #4a4a4a;
+}
+.labelOcultarMostrarPanel {
+	font-family:Arial, tahoma, helvetica;
+	cursor: hand;
+	font-size:11px;
+	color:#0B3D91;
+}
+.cajaIconMessages {
+	background-color:#FFFFFF;
+}
+.tableMessages
+{
+	width:97%;
+	border:1px;
+	margin:0px;	
+	border: 1px solid #CFC5AF;
+	text-align:left;
+	margin-top: 5px;
+	
+}
+.textError
+{	
+	font-family:Arial, tahoma, helvetica;
+	color:red;
+	font-size:11px;
+}
+.imageOcultarMostrar {
+	cursor: hand;
+	
+	VERTICAL-ALIGN: middle;
+	
+}
+img
+{
+vertical-align: middle; 
+border-top-style: none; 
+border-right-style: none;
+ border-left-style: none; 
+ border-bottom-style: none;
+}
+
+#toolTipBox
+{
+	border-right: darkgray 1px solid;
+	padding-right: 7px;
+	border-top: darkgray 1px solid;
+	display: none;
+	padding-left: 7px;
+	font-weight: normal;
+	font-size: 10px;
+	padding-bottom: 7px;
+	border-left: darkgray 1px solid;
+	color: #000000;
+	padding-top: 5px;
+	border-bottom: darkgray 1px solid;
+	font-family: verdana;
+	position: absolute;
+	text-align: left;
+	
+}
+
+.ListaSeleccion
+{
+	font-family: tahoma, Arial, helvetica;
+	color: #000;
+	font-size: 8pt;
+	border: 1px solid #DEDAD3;
+	
+	background-color:#fff;
+}
+/* Pagina de login */
+#wrapper
+{ 
+    width:260px; 
+    position:absolute; 
+    left:75%;
+    top:30%;
+    margin-left:-250px; 
+}
+
+#wrapperLogo
+{ 
+    width:260px; 
+    position:absolute; 
+    left:30%;
+    top:30%;
+    margin-left:-250px; 
+}
+
+/* Para los tabs */
+.tab1
+{
+	text-align: center;
+	text-decoration: none;
+	margin: 1;
+	float: left;
+	display: block;
+	background: url(Imagenes/grd_head.jpg) no-repeat right top;
+	padding: 6px 6px 4px 6px;
+	color: #4a6141;
+	height: 20px;
+	font-weight: bold;
+	font-size: 8pt;
+	width: 85px;
+	font-family: Verdana, 'Microsoft Sans Serif' ,;
+}
+      
+.tab1:hover
+{
+	font-family: Verdana, 'Microsoft Sans Serif';
+	background-position: 100% -49px;
+	font-size: 8pt;
+	width: 85px;
+	color: #0B3D91;
+}
+
+/* Cursor Mano */
+.CursorMano
+{
+	cursor:pointer;
+}
+.tabLogout
+{
+    display: block;
+    float:right;
+    padding: .2em .2em;
+    text-decoration: none;
+    text-transform: lowercase;
+    letter-spacing: -1px;
+    font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    color: #FFFFFF;
+}
+.panelDV
+{
+    background-color:Red;
+    font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    font-weight: bold; 
+    color: #FFFFFF;
+    text-align:center;
+}
+.panelDV a
+{
+    background-color:Red;
+    font: normal small "Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 1.0em;
+    font-weight: bold; 
+    color: #FFFFFF;
+    text-align:center;
+}
+.boton
+{
+    background-color:#99CC00;
+    font-weight: bold;
+    color: #FFFFFF;
+}

@@ -1,0 +1,10 @@
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento\bin\TuCuento.dll
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento\bin\TuCuento.pdb
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\ResolveAssemblyReference.cache
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\TuCuento.dll
+C:\Desarrollo\Personal\Facultad\Facultad\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\TuCuento.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\bin\TuCuento.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\bin\TuCuento.pdb
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\ResolveAssemblyReference.cache
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\TuCuento.dll
+C:\Esteban\Facultad 2010\TFI\Tecnología\Proyecto\TuCuento\TuCuento\obj\Debug\TuCuento.pdb

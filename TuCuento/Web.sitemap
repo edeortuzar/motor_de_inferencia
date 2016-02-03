@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home" description="Home">
+    <siteMapNode title="Area Padres" url="~/Usuarios/Default.aspx" description="Permite administrar usuarios y perfiles">
+      <siteMapNode url="~/Usuarios/ABMUsuario.aspx" title="ABM Usuario" description="Permite el ABM de usuarios" />
+      <siteMapNode url="~/Usuarios/ABMGrupos.aspx" title="ABM Grupos" description="Permite el ABM de usuarios" />
+      <siteMapNode url="~/Usuarios/ABMPerfiles.aspx" title="ABM Perfiles" description="Permite el ABM de usuarios" />
+      <siteMapNode url="~/Usuarios/ABMPermisos.aspx" title="ABM Permisos" description="Permite el ABM de usuarios" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>
